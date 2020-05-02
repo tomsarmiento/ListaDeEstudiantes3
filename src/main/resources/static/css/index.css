@@ -1,0 +1,19 @@
+@charset "UTF-8";
+.container-fluid{
+	margin-top: 20px;
+}
+.link{
+	margin-left: 4%;
+}
+.table-wrapper-scroll-y{
+	height: 200px; overflow: auto; margin-bottom: 20px;
+}
+.left{
+	width: 40%;
+	display:inline-block;
+}
+.right{
+	margin-left:19%;
+	width:40%;
+	display:inline-block;
+}

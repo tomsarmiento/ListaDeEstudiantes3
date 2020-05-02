@@ -1,0 +1,12 @@
+/classes/new -> Redirige hacia crear una nueva clase✅newclass.jsp✅
+/classes/create?name=x -> Crear una clase✅ index✅
+/students/{stId} -> Muestra los detalles de un estudiante (Ciudad, dirección, dormitorio y clases)✅ showstudent.jsp✅
+/students/{stId}/add?class=n -> Agrega una clase con id=n al estudiante con id={id} ✅ students/{stId}✅
+/classes/{clId} -> Muestra los detalles de la clase con id={id}✅ showclass.jsp
+/students/{stId}/remove?clId=n -> Elimina al estudiante id=n de la clase id=clId✅
+
+AddStudentToClass(Long stId, Long clId) -> Agregar un estudiante con id=stId a una clase con id=clId✅
+createClass(Class class)✅
+findClassById(Long clId)✅
+unregisteredClasses(Long stId) -> Devuelve una lista con todas las clases a las que el estudiante con id=stId no pertenece✅
+findEnrolledClasses(Long stId) -> Devuelve una lista con todas las clases a las que el estudiante con id=stId pertenece✅
